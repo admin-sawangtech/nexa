@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-01',
 
-  modules: ['@nuxtjs/tailwindcss', 'reka-ui/nuxt'],
+  modules: ['@nuxtjs/tailwindcss', 'reka-ui/nuxt', '@vercel/analytics/nuxt'],
 
   runtimeConfig: {
     apiBase: process.env.API_BASE || 'http://localhost:8080',
